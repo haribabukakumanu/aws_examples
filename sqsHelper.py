@@ -49,7 +49,7 @@ def sendMessagesinBatch():
 def readmessages():
     sqsclient = boto3.client('sqs')
     response = sqsclient.receive_message(
-        QueueUrl=' 	https://sqs.us-east-1.amazonaws.com/776955605071/test1',
+        QueueUrl=' 	https://sqs.us-east-1.amazonaws.com/awsaccount/test1',
         AttributeNames=[
             'All'
         ]
