@@ -1,7 +1,7 @@
 dbdetails = {
     "host": "localhost",
-    "username": "postgres",
-    "password": "Esrigis01",
+    "username": "username",
+    "password": "password",
     "database": "dvdrental",
     "portno": "5432"
 }
